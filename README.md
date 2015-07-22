@@ -9,7 +9,7 @@ Innerhalb einer __Spalte__ und __Zeile__ wird wiederum in die Kartenblätter __A
 Das Pythonskript verfährt folgendermaßen:
 
 --------------------------------------------------------------
-1. Vom Nullpunkt ausgehend wird das Zentrum der ersten Zeile der ersten Spalte im ersten Sektor anvisiert. Um dieses werden dann die Kartenblätter erstellt.
+* Vom Nullpunkt ausgehend wird das Zentrum der ersten Zeile der ersten Spalte im ersten Sektor anvisiert. Um dieses werden dann die Kartenblätter erstellt.
 
 ```
 Nullpunkt = 	X: 40.000
@@ -35,7 +35,7 @@ Kartenblatt 101_D = 	left: Zentrum_X;
 			bottom: Zentrum - 2400;
 ```
 --------------------------------------------------------------
-2. Die X-Koordinaten für das Zentrum werden mittels einer Schleife hochgezählt. Die Spalten lassen sich über min/max-Variablen definieren. Bsp.: min = 101; max = 102; Die Schleife läuft also für Spalte1 und 2 des ersten Sektors durch.
+* Die X-Koordinaten für das Zentrum werden mittels einer Schleife hochgezählt. Die Spalten lassen sich über min/max-Variablen definieren. Bsp.: min = 101; max = 102; Die Schleife läuft also für Spalte1 und 2 des ersten Sektors durch.
 ```
 Sektor: 1, Zeile: 0, Spalte: 2
 Zentrum = 	X: Nullpunkt + 3200 + (3200 * 2); 
@@ -43,7 +43,7 @@ Zentrum = 	X: Nullpunkt + 3200 + (3200 * 2);
 	...
 ```
 --------------------------------------------------------------
-3. Nach durchlaufen der Spalten (min/max) wird die Y-Koordinaten hochgezählt. Gleichzeitig wird die X-Koordinate zurückgesetzt.
+* Nach durchlaufen der Spalten (min/max) wird die Y-Koordinaten hochgezählt. Gleichzeitig wird die X-Koordinate zurückgesetzt.
 ```
 Sektor: 1, Zeile: 1, Spalte: 1
 Zentrum = 	X: Nullpunkt + 3200; 
@@ -51,5 +51,5 @@ Zentrum = 	X: Nullpunkt + 3200;
 	...	
 ```
 --------------------------------------------------------------
-4. Ab hier wiederholt sich dann alles. Für jeden Sektor gibt es ein angepasstes vorgehen, da X- bzw. Y-Koordinate entweder hochgezählt oder runtergezählt werden müssen.
+* Ab hier wiederholt sich dann alles. Für jeden Sektor gibt es ein angepasstes vorgehen, da X- bzw. Y-Koordinate entweder hochgezählt oder runtergezählt werden müssen.
 
