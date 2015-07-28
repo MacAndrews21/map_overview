@@ -1,4 +1,4 @@
-# map_overview
+# map_overview_k5
 
 Das Kartenwerk gliedert sich in __4 Sektoren__ die gegen den Uhrzeigersinn um den Nullpunkt verlaufen. Das Beispiel beschreibt den Ablauf für die Karten 101.  
 Der Kartenschlüssel deutet sich wie folgt:  
