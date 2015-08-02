@@ -6,7 +6,7 @@ Der Kartenschlüssel deutet sich wie folgt:
 0 -> Zeile  
 1 -> Spalte  
 Innerhalb einer __Spalte__ und __Zeile__ wird wiederum in die Kartenblätter __A__, __B__, __C__ und __D__ aufgeteilt.  
-![overview](https://github.com/MacAndrews21/map_overview/blob/master/2015-07-21-Doku-K5.png)  
+![overview](https://github.com/MacAndrews21/map_overview_k5/blob/master/2015-07-21-Doku-K5.png)  
 Das Pythonskript verfährt folgendermaßen:
 
 --------------------------------------------------------------
